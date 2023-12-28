@@ -1,0 +1,19 @@
+.menu__title__container {
+  color: transparent;
+}
+.menu__title__container h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 150px;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #eb0133, #7614fd);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu__title__container br {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
