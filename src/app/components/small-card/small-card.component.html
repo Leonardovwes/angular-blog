@@ -2,12 +2,12 @@
   <div class="small-card__container-content">
     <div class="small-card__photo">
       <img
-        src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg"
+        src="{{photoCover}}"
         alt="image"
       >
     </div>
       <div class="small-card__title">
-        <h1><a href="#">title</a></h1>
+        <h1><a [routerLink]="['content',id]">{{cardTitle}}</a></h1>
     </div>
   </div>
   <div class="small-card__container__separator">
